@@ -1,13 +1,13 @@
-# devise-i18n-views
+# devise-i18n-bootstrap
 
-I18n support and translations for **[Devise v2.+](https://github.com/plataformatec/devise)** views.
+It's forked from devise-i18n-views gem. This gem is under development. I18n support and translations for **[Devise v2.+](https://github.com/plataformatec/devise)** views.
 
 ## Install
 
 Add the following line to your `Gemfile`
 
 ``` rb
-gem 'devise-i18n-views'
+gem 'devise-i18n-bootstrap'
 ```
 
 and run `bundle install`.

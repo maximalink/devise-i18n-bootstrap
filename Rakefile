@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "devise-i18n-views"
-  gem.homepage = "http://github.com/mcasimir/devise-i18n-views"
+  gem.name = "devise-i18n-bootstrap"
+  gem.homepage = "http://github.com/maximalink/devise-i18n-bootstrap"
   gem.license = "MIT"
-  gem.summary = %Q{I18n support for devise views}
-  gem.description = %Q{I18n support for devise views}
-  gem.email = "maurizio.cas@gmail.com"
-  gem.authors = ["mcasimir"]
+  gem.summary = %Q{I18n support for devise views based on Twitter Bootstrap 3}
+  gem.description = %Q{I18n support for devise views based on Twitter Bootstrap 3}
+  gem.email = 'nyitrai@maximalink.com'
+  gem.authors = ['mcasimir', 'Jozsef Nyitrai']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
