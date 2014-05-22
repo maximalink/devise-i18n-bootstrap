@@ -9,7 +9,7 @@ module DeviseI18nViews
       DeviseI18nViews::Railtie.instance_eval do
         pattern = pattern_from app.config.i18n.available_locales
 
-        files = Dir[File.join(File.dirname(__FILE__), '../locales', "#{pattern}.yml")]
+        files = Dir[File.join(File.dirname(__FILE__), '../config/locales', "#{pattern}.yml")]
         I18n.load_path.concat(files)
       end
     end
