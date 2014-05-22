@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'rails'
 gem 'devise'
 gem 'devise-i18n'
 
