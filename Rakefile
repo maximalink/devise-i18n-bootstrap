@@ -21,6 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{I18n support for devise views based on Twitter Bootstrap 3}
   gem.email = 'nyitrai@maximalink.com'
   gem.authors = ['mcasimir', 'Jozsef Nyitrai']
+  gem.files = Dir['lib/**/*.rb', 'config/locales/*.yml', 'app/views/devise/**/*.erb', 'spec/**/*.rb']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

@@ -1,12 +1,12 @@
 require 'rails'
 
-module DeviseI18nViews
+module DeviseI18nBootstrap
   class Engine < ::Rails::Engine
   end
 
   class Railtie < ::Rails::Railtie
     initializer 'rails-i18n-views' do |app|
-      DeviseI18nViews::Railtie.instance_eval do
+      DeviseI18nBootstrap::Railtie.instance_eval do
         pattern = pattern_from app.config.i18n.available_locales
 
         files = Dir[File.join(File.dirname(__FILE__), '../config/locales', "#{pattern}.yml")]

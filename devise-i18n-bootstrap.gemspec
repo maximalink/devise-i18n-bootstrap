@@ -19,14 +19,6 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
-    ".document",
-    ".project",
-    ".rspec",
-    "Gemfile",
-    "LICENSE.txt",
-    "README.md",
-    "Rakefile",
-    "VERSION",
     "app/views/devise/_links.erb",
     "app/views/devise/confirmations/new.html.erb",
     "app/views/devise/mailer/confirmation_instructions.html.erb",
@@ -56,8 +48,7 @@ Gem::Specification.new do |s|
     "config/locales/tr.yml",
     "config/locales/zh-CN.yml",
     "config/locales/zh-TW.yml",
-    "devise-i18n-bootstrap.gemspec",
-    "lib/devise-i18n-bootstrap.rb",
+    "lib/devise_i18n_bootstrap.rb",
     "lib/generators/devise/views/i18n_templates/i18n_templates_generator.rb",
     "lib/generators/devise/views/locale/locale_generator.rb",
     "spec/devise_i18n_bootstrap_spec.rb",
@@ -74,20 +65,20 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, ["~> 3.0.0.beta"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
-      s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<i18n-spec>, [">= 0"])
       s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, ["~> 3.0.0.beta"])
       s.add_dependency(%q<bundler>, [">= 0"])
-      s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<i18n-spec>, [">= 0"])
       s.add_dependency(%q<localeapp>, [">= 0"])
     end
   else
     s.add_dependency(%q<rspec>, ["~> 3.0.0.beta"])
     s.add_dependency(%q<bundler>, [">= 0"])
-    s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<i18n-spec>, [">= 0"])
     s.add_dependency(%q<localeapp>, [">= 0"])
   end
