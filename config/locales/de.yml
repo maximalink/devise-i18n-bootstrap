@@ -3,9 +3,9 @@ de:
     confirmations:
       new:
         resend_confirmation_instructions: Anleitung zur Bestätigung noch mal schicken
-        confirmed: Ihre Konto wurde erfolgreich bestätigt.
-        send_instructions: Sie erhalten ein wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Konto bestätigen.
-        send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, werden Sie in wenigen Minuten eine E-Mail mit Anweisungen erhalten, wie Sie Ihr Konto bestätigen.
+      confirmed: Ihre Konto wurde erfolgreich bestätigt.
+      send_instructions: Sie erhalten ein wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Konto bestätigen.
+      send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, werden Sie in wenigen Minuten eine E-Mail mit Anweisungen erhalten, wie Sie Ihr Konto bestätigen.
     failure:
       already_authenticated: "Sie sind schon angemeldet."
       inactive: "Ihr Konto ist noch nicht aktiviert."
