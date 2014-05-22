@@ -48,7 +48,7 @@ Gem::Specification.new do |s|
     "config/locales/tr.yml",
     "config/locales/zh-CN.yml",
     "config/locales/zh-TW.yml",
-    "lib/devise_i18n_bootstrap.rb",
+    "lib/devise-i18n-bootstrap.rb",
     "lib/generators/devise/views/i18n_templates/i18n_templates_generator.rb",
     "lib/generators/devise/views/locale/locale_generator.rb",
     "spec/devise_i18n_bootstrap_spec.rb",
