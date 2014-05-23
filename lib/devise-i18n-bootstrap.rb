@@ -1,3 +1,4 @@
+require 'devise'
 require 'rails'
 
 module DeviseI18nBootstrap
