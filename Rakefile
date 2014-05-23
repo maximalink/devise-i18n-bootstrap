@@ -1,6 +1,8 @@
 # encoding: utf-8
 require 'rubygems'
 require 'bundler'
+$LOAD_PATH << File.expand_path('../lib/', __FILE__)
+require 'devise-i18n-bootstrap'
 
 begin
   Bundler.setup(:default, :development)
@@ -17,6 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = 'devise-i18n-bootstrap'
   gem.homepage = 'http://github.com/nyjt/devise-i18n-bootstrap'
   gem.license = 'MIT'
+  gem.version = DeviseI18nBootstrap::VERSION
   gem.summary = %Q{I18n support for devise views based on Twitter Bootstrap 3}
   gem.description = %Q{I18n support for devise views based on Twitter Bootstrap 3}
   gem.email = 'nyitrai@maximalink.com'
