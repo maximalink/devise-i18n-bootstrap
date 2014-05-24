@@ -1,3 +1,4 @@
+require 'simple_form'
 require 'devise'
 require 'rails'
 
