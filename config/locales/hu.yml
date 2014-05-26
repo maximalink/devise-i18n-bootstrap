@@ -2,13 +2,26 @@ hu:
   devise:
     confirmations:
       new:
-        resend_confirmation_instructions: Megerősítő levél újraküldése
+        resend_confirmation_instructions: "Aktiváláshoz szükséges levél újraküldése"
+      confirmed: "A felhasználói fiók aktiválása megtörtént."
+      send_instructions: "Egy levelet küldtünk a megadott e-mail címre. Ebben leírjuk hogyan lehet aktiválni a felhasználói fiókot."
+      send_paranoid_instructions: "Ha a megadott e-mailcím megtalálható a rendszerben, akkor néhány percen belül kiküldjük rá a tudnivalókat a felhasználói fiók aktiválásáról."
+    failure:
+      already_authenticated: "A bejelentkezés már korábban megtörtént."
+      inactive: "A felhasználói fiók még nincs aktiválva."
+      invalid: "Helytelen e-mail vagy jelszó."
+      invalid_token: "Érvénytelen azonosító."
+      locked: "Ezt a felhasználói fiókot a rendszer zárolta."
+      not_found_in_database: "Helytelen e-mail vagy jelszó."
+      timeout: "Inaktivitás miatt az automatikus kijelentkezés megtörtént. A folytatáshoz ismételt bejelentkezés szükséges."
+      unauthenticated: "A folytatáshoz bejelntkezés vagy regisztráció szükséges."
+      unconfirmed: "A folytatáshoz a felhasználói fiók aktiválása szükséges."
     mailer:
       confirmation_instructions:
-        action: Fiók megerősítése
-        greeting: Kedves %{reciipient}!
-        instruction: ! 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
-        subject: A fiók megerősítéséhez szükséges teendők
+        action: "Felhasználói fiók aktiválása"
+        greeting: "Kedves %{recipient}!"
+        instruction: ! "A fiók aktiválása a következő link segítségével lehetséges:"
+        subject: "Felhasználói fiók aktiválása"
       reset_password_instructions:
         action: Jelszó megváltoztatása
         greeting: Kedves %{recipient}!
@@ -22,30 +35,48 @@ hu:
         instruction: ! 'A zárolás feloldásához az alábbi linkre kell kattintani:'
         message: A felhasználói fiókja zárolva lett túl sok sikertelen belépési kísérlet miatt.
         subject: Fiókzárolás feloldásához szükséges teendők
+    omniauth_callbacks:
+      failure: "Az bejelentkezés %{kind} fiókkal nem sikerült: \"%{reason}\"."
+      success: "Sikeres bejelentkezés %{kind} fiókkal."
     passwords:
       new:
-        forgot_your_password: Elfelejtette a jelszavát?
+        forgot_your_password: "Elfelejtett jelszó?"
         send_me_reset_password_instructions: Jelszóviszaállítási teendők küldése
       edit:
         change_your_password: Jelszó megváltoztatása
         new_password: Új jelszó
         confirm_new_password: Jelszó megerősítése
         change_my_password: Jelszó megváltoztatása
+      no_token: "Ez az oldal csak egy jelszó helyreállító e-mailben kapott linkről tekinthető meg. Ha így jutott el erre az oldalra, ellenőríze, hogy a teljes URL meg van-e adva."
+      send_instructions: "Hamarosan e-mailt küldünk arról, hogyan lehet új jelszót igényelni."
+      send_paranoid_instructions: "Ha az e-mail cím az adatbázisban volt, hamarosan e-mailt küldünk arról, hogyan lehet új jelszót igényelni."
+      updated: "A jelszó megváltoztatása sikeres volt. A bejelentkezés megtörtént."
+      updated_not_active: "A jelszó megváltoztatása sikerült."
     registrations:
       edit:
         are_you_sure: Biztos benne?
         cancel_my_account: Fiók megszüntetése
         leave_blank_if_you_don_t_want_to_change_it: csak változás esetén kitöltendő
         title: "%{resource} módosítása"
+        currently_waiting_confirmation_for: 'Jelenleg aktiválásra vár'
         we_need_your_current_password_to_confirm_your_changes: a változtatás végrehajtásához szükséges a jelenlegi jelszó
         update: Módosítás
-        cancel_my_account: Fiók megszüntetése
-        unhappy: Szomorú
+        unhappy: Elégedetlen?
+        back: 'Vissza'
       new:
         sign_up: Regisztráció
+      destroyed: "A felhasználói fiókot töröltük. Reméljük hamarosan ismét felhasználóink közt köszönthetjük."
+      signed_up: "Sikeres regisztráció."
+      signed_up_but_inactive: "A regisztráció siekres volt. Azonban a bejelntkezés csak a felhasználói fiók aktiálása után lehetséges."
+      signed_up_but_locked: "A regisztráció sikeres volt. Azonban a felhasználói fiók jelenleg még zárolva van."
+      signed_up_but_unconfirmed: "Az aktiválásról szóló tudnivalókat elküldtük a megadott e-mail címre. Az e-mailben található linkre kattintva aktiválható az új felhasználó fiók."
+      update_needs_confirmation: "A felhasználóo fiók módosítása sikeres volt, de az e-mail cím megváltoztatásához megerősítő e-mail küldtünk ki rá. A linkre kattintva lesz csak aktív az új e-mail cím."
+      updated: "A felhasználói fiók módosítása sikeres volt."
     sessions:
+      signed_in: "A bejelentkezés sikerült."
+      signed_out: "A kijelentkezés sikerült."
       new:
-        sign_in: Belépés
+        sign_in: "Bejelentkezés"
     shared:
       links:
         didn_t_receive_confirmation_instructions: Nem kapta meg a megerősítő levelet?
@@ -56,4 +87,26 @@ hu:
         sign_up: Regisztráció
     unlocks:
       new:
-        resend_unlock_instructions: Feloldási teendők újraküldése
+        resend_unlock_instructions: Tudnivalók küldése a zárolás megszüntetéséről
+      send_instructions: "E-mailt küldtünk arról, hogyan lehet a felhasználói fiók zárolását megszüntetni."
+      send_paranoid_instructions: "Ha a megadott felhasználói fiók létezik, akkor e-mailt küldtünk arról, hogyan lehet a felhasználói fiók zárolását megszüntetni."
+      unlocked: "A felhasználói fiók sikeresen újra lett engedélyezve. A folytatáshoz bejelentkezés szükséges."
+  errors:
+    messages:
+      already_confirmed: "már aktiválva van, csak be kell jelentkezni vele"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "már lejárt, újat kell igényelni"
+      not_found: "nem található"
+      not_locked: "nem volt zárolva"
+      not_saved:
+        one: "Nem menthető %{resource} 1 hiba miatt:"
+        other: "Nem menthető %{resource} %{count} hiba miatt:"
+  activerecord:
+    models:
+      user: "Felhasználó"
+    attributes:
+      user:
+        current_sign_in_at: "Bejelentkezés időpontja"
+        email: "E-mail"
+        password: "Jelszó"
+        last_sign_in_at: "Legutóbbi bejelentkezés időpontja"
