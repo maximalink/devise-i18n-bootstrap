@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["mcasimir", "Jozsef Nyitrai"]
-  s.date = "2014-05-24"
+  s.date = "2014-06-02"
   s.description = "I18n support for devise views based on Twitter Bootstrap 3"
   s.email = "nyitrai@maximalink.com"
   s.extra_rdoc_files = [
@@ -68,8 +68,8 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rails>, ["~> 4.1.1"])
       s.add_runtime_dependency(%q<devise>, [">= 0"])
       s.add_runtime_dependency(%q<devise-i18n>, [">= 0"])
-      s.add_runtime_dependency(%q<simple_form>, ["~> 3.1.0.r1"])
-      s.add_development_dependency(%q<rspec>, ["~> 3.0.0.beta"])
+      s.add_runtime_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
+      s.add_development_dependency(%q<rspec>, ["~> 3.0.0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<i18n-spec>, [">= 0"])
@@ -78,8 +78,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rails>, ["~> 4.1.1"])
       s.add_dependency(%q<devise>, [">= 0"])
       s.add_dependency(%q<devise-i18n>, [">= 0"])
-      s.add_dependency(%q<simple_form>, ["~> 3.1.0.r1"])
-      s.add_dependency(%q<rspec>, ["~> 3.0.0.beta"])
+      s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
+      s.add_dependency(%q<rspec>, ["~> 3.0.0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<i18n-spec>, [">= 0"])
@@ -89,8 +89,8 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rails>, ["~> 4.1.1"])
     s.add_dependency(%q<devise>, [">= 0"])
     s.add_dependency(%q<devise-i18n>, [">= 0"])
-    s.add_dependency(%q<simple_form>, ["~> 3.1.0.r1"])
-    s.add_dependency(%q<rspec>, ["~> 3.0.0.beta"])
+    s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
+    s.add_dependency(%q<rspec>, ["~> 3.0.0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<i18n-spec>, [">= 0"])
