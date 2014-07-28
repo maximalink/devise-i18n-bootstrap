@@ -9,6 +9,6 @@ group :development do
   gem 'rspec', '~> 3.0.0'
   gem 'bundler'
   gem 'jeweler'
-  gem 'i18n-spec'
+  gem 'i18n-spec', '~> 0.5.1'
   gem 'localeapp'
 end
