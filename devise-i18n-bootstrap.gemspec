@@ -86,7 +86,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, ["~> 4.1.1"])
-      s.add_runtime_dependency(%q<devise>, [">= 0"])
+      s.add_runtime_dependency(%q<devise>, ["~> 3.0"])
       s.add_runtime_dependency(%q<devise-i18n>, [">= 0"])
       s.add_runtime_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
       s.add_development_dependency(%q<rspec>, ["~> 3.0.0"])
@@ -100,7 +100,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
       s.add_dependency(%q<rails>, ["~> 4.1.1"])
-      s.add_dependency(%q<devise>, [">= 0"])
+      s.add_dependency(%q<devise>, ["~> 3.0"])
       s.add_dependency(%q<devise-i18n>, [">= 0"])
       s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
       s.add_dependency(%q<rspec>, ["~> 3.0.0"])
@@ -115,7 +115,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rails>, ["~> 4.1.1"])
-    s.add_dependency(%q<devise>, [">= 0"])
+    s.add_dependency(%q<devise>, ["~> 3.0"])
     s.add_dependency(%q<devise-i18n>, [">= 0"])
     s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
     s.add_dependency(%q<rspec>, ["~> 3.0.0"])
