@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/nyjt/devise-i18n-bootstrap.png)](https://codeclimate.com/github/nyjt/devise-i18n-bootstrap)
 [![Dependency Status](https://gemnasium.com/nyjt/devise-i18n-bootstrap.svg)](https://gemnasium.com/nyjt/devise-i18n-bootstrap)
 
-It's forked from devise-i18n-views gem. This gem is under development. I18n support and translations for **[Devise v2.+](https://github.com/plataformatec/devise)** views.
+It's forked from devise-i18n-views gem. This gem is under development. I18n support and translations for **[Devise v3.+](https://github.com/plataformatec/devise)** views.
 
 ## Install
 
