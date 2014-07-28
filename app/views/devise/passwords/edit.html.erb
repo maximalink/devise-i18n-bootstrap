@@ -1,6 +1,6 @@
 <h2><%= t('.change_your_password', default: 'Change your password') %></h2>
 
-<%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: put }) do |f| %>
+<%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
   <%= f.error_notification class: 'alert alert-danger' %>
   <%= f.hidden_field :reset_password_token %>
 
