@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 4.1.1'
+gem 'rails', '>= 3.2', '< 5.0'
 gem 'devise', '~> 3.0'
 gem 'devise-i18n'
-gem 'simple_form', '~> 3.1.0.rc1'
+gem 'simple_form', '~> 3.0'
 
 group :development do
   gem 'rspec', '~> 3.0.0'
