@@ -70,6 +70,8 @@ Gem::Specification.new do |s|
     "spec/dummy/config/initializers/inflections.rb",
     "spec/dummy/config/initializers/mime_types.rb",
     "spec/dummy/config/initializers/session_store.rb",
+    "spec/dummy/config/initializers/simple_form.rb",
+    "spec/dummy/config/initializers/simple_form_bootstrap.rb",
     "spec/dummy/config/initializers/wrap_parameters.rb",
     "spec/dummy/config/routes.rb",
     "spec/spec_helper.rb"
@@ -88,8 +90,12 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<devise-i18n>, [">= 0"])
       s.add_runtime_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
       s.add_development_dependency(%q<rspec>, ["~> 3.0.0"])
+      s.add_development_dependency(%q<rspec-rails>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<sqlite3>, [">= 0"])
+      s.add_development_dependency(%q<capybara>, [">= 0"])
+      s.add_development_dependency(%q<database_cleaner>, [">= 0"])
       s.add_development_dependency(%q<i18n-spec>, ["~> 0.5.1"])
       s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
@@ -98,8 +104,12 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<devise-i18n>, [">= 0"])
       s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
       s.add_dependency(%q<rspec>, ["~> 3.0.0"])
+      s.add_dependency(%q<rspec-rails>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<sqlite3>, [">= 0"])
+      s.add_dependency(%q<capybara>, [">= 0"])
+      s.add_dependency(%q<database_cleaner>, [">= 0"])
       s.add_dependency(%q<i18n-spec>, ["~> 0.5.1"])
       s.add_dependency(%q<localeapp>, [">= 0"])
     end
@@ -109,8 +119,12 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<devise-i18n>, [">= 0"])
     s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc1"])
     s.add_dependency(%q<rspec>, ["~> 3.0.0"])
+    s.add_dependency(%q<rspec-rails>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<sqlite3>, [">= 0"])
+    s.add_dependency(%q<capybara>, [">= 0"])
+    s.add_dependency(%q<database_cleaner>, [">= 0"])
     s.add_dependency(%q<i18n-spec>, ["~> 0.5.1"])
     s.add_dependency(%q<localeapp>, [">= 0"])
   end
