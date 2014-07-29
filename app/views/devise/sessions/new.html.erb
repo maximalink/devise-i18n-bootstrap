@@ -4,11 +4,11 @@
   <div class="form-inputs">
     <%= f.input :email, autofocus: true, required: true %>
     <%= f.input :password, required: true %>
-    <%= f.input :remember_me, as: :boolean, wrapper_class: 'checkbox-inline' if devise_mapping.rememberable? %>
+    <%= f.input :remember_me, as: :boolean, boolean_style: :inline, wrapper_class: 'checkbox-inline' if devise_mapping.rememberable? %>
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit, t('.sign_in', default: 'Sign in') %>
+    <%= f.button :submit, t('.sign_in', default: 'Sign in'), class: 'btn btn-primary' %>
   </div>
 <% end %>
 
