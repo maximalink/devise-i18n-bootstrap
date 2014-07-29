@@ -17,7 +17,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = 'devise-i18n-bootstrap'
-  gem.homepage = 'http://github.com/nyjt/devise-i18n-bootstrap'
+  gem.homepage = 'http://github.com/maximalink/devise-i18n-bootstrap'
   gem.license = 'MIT'
   gem.version = DeviseI18nBootstrap::VERSION
   gem.summary = %Q{I18n support for devise views based on Twitter Bootstrap 3}

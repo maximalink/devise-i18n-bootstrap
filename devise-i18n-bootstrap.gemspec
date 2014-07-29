@@ -81,9 +81,10 @@ Gem::Specification.new do |s|
     "spec/dummy/config/routes.rb",
     "spec/dummy/db/migrate/20140729100536_devise_create_users.rb",
     "spec/dummy/db/schema.rb",
+    "spec/features/sessions_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/nyjt/devise-i18n-bootstrap"
+  s.homepage = "http://github.com/maximalink/devise-i18n-bootstrap"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.1"
   s.summary = "I18n support for devise views based on Twitter Bootstrap 3"
@@ -95,7 +96,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rails>, ["< 5.0", ">= 3.2"])
       s.add_runtime_dependency(%q<devise>, ["~> 3.0"])
       s.add_runtime_dependency(%q<devise-i18n>, [">= 0"])
-      s.add_runtime_dependency(%q<simple_form>, ["~> 3.0"])
+      s.add_runtime_dependency(%q<simple_form>, ["~> 3.1.0.rc2"])
       s.add_development_dependency(%q<rspec>, ["~> 3.0.0"])
       s.add_development_dependency(%q<rspec-rails>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
@@ -112,7 +113,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rails>, ["< 5.0", ">= 3.2"])
       s.add_dependency(%q<devise>, ["~> 3.0"])
       s.add_dependency(%q<devise-i18n>, [">= 0"])
-      s.add_dependency(%q<simple_form>, ["~> 3.0"])
+      s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc2"])
       s.add_dependency(%q<rspec>, ["~> 3.0.0"])
       s.add_dependency(%q<rspec-rails>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
@@ -130,7 +131,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rails>, ["< 5.0", ">= 3.2"])
     s.add_dependency(%q<devise>, ["~> 3.0"])
     s.add_dependency(%q<devise-i18n>, [">= 0"])
-    s.add_dependency(%q<simple_form>, ["~> 3.0"])
+    s.add_dependency(%q<simple_form>, ["~> 3.1.0.rc2"])
     s.add_dependency(%q<rspec>, ["~> 3.0.0"])
     s.add_dependency(%q<rspec-rails>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
