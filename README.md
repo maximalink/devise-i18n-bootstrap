@@ -32,6 +32,13 @@ The `devise:views:i18n_templates` generator will copy all views to your applicat
 rails g devise:views:i18n_templates
 ```
 
+## Horizontal login form in navbar
+
+Using navbar login partial is very simple. You need to give devise resource name (like :user) and the partial generate login form in bootstrap navbar.
+```erb
+<%= render partial: 'devise/sessions/navbar_new', locals: { resource: :user } %>
+```
+
 ## Contributing to devise-i18n-views
 ### with Localeapp
 
