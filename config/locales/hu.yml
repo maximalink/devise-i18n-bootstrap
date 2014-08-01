@@ -70,13 +70,20 @@ hu:
       signed_up_but_inactive: "A regisztráció siekres volt. Azonban a bejelntkezés csak a felhasználói fiók aktiálása után lehetséges."
       signed_up_but_locked: "A regisztráció sikeres volt. Azonban a felhasználói fiók jelenleg még zárolva van."
       signed_up_but_unconfirmed: "Az aktiválásról szóló tudnivalókat elküldtük a megadott e-mail címre. Az e-mailben található linkre kattintva aktiválható az új felhasználó fiók."
-      update_needs_confirmation: "A felhasználóo fiók módosítása sikeres volt, de az e-mail cím megváltoztatásához megerősítő e-mail küldtünk ki rá. A linkre kattintva lesz csak aktív az új e-mail cím."
+      update_needs_confirmation: "A felhasználói fiók módosítása sikeres volt, de az e-mail cím megváltoztatásához megerősítő e-mail küldtünk ki rá. A linkre kattintva lesz csak aktív az új e-mail cím."
       updated: "A felhasználói fiók módosítása sikeres volt."
     sessions:
       signed_in: "A bejelentkezés sikerült."
       signed_out: "A kijelentkezés sikerült."
       new:
         sign_in: "Bejelentkezés"
+      navbar_new:
+        sign_in: 'Bejelentkezés'
+        sign_up: 'Regisztráció'
+        email: 'E-mail'
+        password: 'Jelszó'
+        forgot_your_password: 'Elfelejtett jelszó'
+        remember_me: 'Maradjak belépve'
     shared:
       links:
         didn_t_receive_confirmation_instructions: Nem kapta meg a megerősítő levelet?
