@@ -52,3 +52,6 @@ pkg
 
 # For RubyMine
 .idea
+
+spec/dummy/tmp/*
+spec/dummy/log/*.log
