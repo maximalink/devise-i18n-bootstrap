@@ -58,6 +58,7 @@ en:
         cancel_my_account: "Cancel my account"
         leave_blank_if_you_don_t_want_to_change_it: "leave blank if you dont want to change it"
         title: "Edit %{resource}"
+        currently_waiting_confirmation_for: 'Currently waiting confirmation for'
         we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
         update: "Update"
         unhappy: "Unhappy"
@@ -76,6 +77,13 @@ en:
       signed_out: "Signed out successfully."
       new:
         sign_in: "Sign in"
+      navbar_new:
+        sign_in: 'Sign in'
+        sign_up: 'Sign up'
+        email: 'Email'
+        password: 'Password'
+        forgot_your_password: 'Forgot your password?'
+        remember_me: 'Remember me'
     shared:
       links:
         didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
